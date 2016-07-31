@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D54AB5A61D4DBDDB00259C05 /* ZCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D54AB5A31D4DBDDB00259C05 /* ZCModel.m */; };
+		D54AB5A71D4DBDDB00259C05 /* ZCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D54AB5A51D4DBDDB00259C05 /* ZCTableViewCell.m */; };
+		D589003A1D166F1E00F58405 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D58900391D166F1E00F58405 /* main.m */; };
+		D589003D1D166F1E00F58405 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D589003C1D166F1E00F58405 /* AppDelegate.m */; };
+		D58900431D166F1E00F58405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58900411D166F1E00F58405 /* Main.storyboard */; };
+		D58900451D166F1E00F58405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58900441D166F1E00F58405 /* Assets.xcassets */; };
+		D58900481D166F1E00F58405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58900461D166F1E00F58405 /* LaunchScreen.storyboard */; };
+		D58900531D166F1E00F58405 /* ZCAutoCellHeightExtetionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D58900521D166F1E00F58405 /* ZCAutoCellHeightExtetionTests.m */; };
+		D589005E1D166F1E00F58405 /* ZCAutoCellHeightExtetionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D589005D1D166F1E00F58405 /* ZCAutoCellHeightExtetionUITests.m */; };
+		D589009E1D166F4C00F58405 /* UICollectionView+ZCCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = D58900971D166F4C00F58405 /* UICollectionView+ZCCacheHeight.m */; };
+		D589009F1D166F4C00F58405 /* UICollectionViewCell+ZCAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = D58900991D166F4C00F58405 /* UICollectionViewCell+ZCAutoCellHeight.m */; };
+		D58900A01D166F4C00F58405 /* UITableView+ZCCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = D589009B1D166F4C00F58405 /* UITableView+ZCCacheHeight.m */; };
+		D58900A11D166F4C00F58405 /* UITableViewCell+ZCAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = D589009D1D166F4C00F58405 /* UITableViewCell+ZCAutoCellHeight.m */; };
+		D58900A71D166F8400F58405 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D58900A61D166F8400F58405 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D589004F1D166F1E00F58405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D589002D1D166F1E00F58405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58900341D166F1E00F58405;
+			remoteInfo = ZCAutoCellHeightExtetion;
+		};
+		D589005A1D166F1E00F58405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D589002D1D166F1E00F58405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58900341D166F1E00F58405;
+			remoteInfo = ZCAutoCellHeightExtetion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D54AB5A21D4DBDDB00259C05 /* ZCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCModel.h; sourceTree = "<group>"; };
+		D54AB5A31D4DBDDB00259C05 /* ZCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCModel.m; sourceTree = "<group>"; };
+		D54AB5A41D4DBDDB00259C05 /* ZCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTableViewCell.h; sourceTree = "<group>"; };
+		D54AB5A51D4DBDDB00259C05 /* ZCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTableViewCell.m; sourceTree = "<group>"; };
+		D58900351D166F1E00F58405 /* ZCAutoCellHeightExtetion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCAutoCellHeightExtetion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58900391D166F1E00F58405 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D589003B1D166F1E00F58405 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D589003C1D166F1E00F58405 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D58900421D166F1E00F58405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D58900441D166F1E00F58405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D58900471D166F1E00F58405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D58900491D166F1E00F58405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D589004E1D166F1E00F58405 /* ZCAutoCellHeightExtetionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCAutoCellHeightExtetionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58900521D166F1E00F58405 /* ZCAutoCellHeightExtetionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCAutoCellHeightExtetionTests.m; sourceTree = "<group>"; };
+		D58900541D166F1E00F58405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58900591D166F1E00F58405 /* ZCAutoCellHeightExtetionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCAutoCellHeightExtetionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D589005D1D166F1E00F58405 /* ZCAutoCellHeightExtetionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCAutoCellHeightExtetionUITests.m; sourceTree = "<group>"; };
+		D589005F1D166F1E00F58405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58900961D166F4C00F58405 /* UICollectionView+ZCCacheHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+ZCCacheHeight.h"; sourceTree = "<group>"; };
+		D58900971D166F4C00F58405 /* UICollectionView+ZCCacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+ZCCacheHeight.m"; sourceTree = "<group>"; };
+		D58900981D166F4C00F58405 /* UICollectionViewCell+ZCAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+ZCAutoCellHeight.h"; sourceTree = "<group>"; };
+		D58900991D166F4C00F58405 /* UICollectionViewCell+ZCAutoCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+ZCAutoCellHeight.m"; sourceTree = "<group>"; };
+		D589009A1D166F4C00F58405 /* UITableView+ZCCacheHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+ZCCacheHeight.h"; sourceTree = "<group>"; };
+		D589009B1D166F4C00F58405 /* UITableView+ZCCacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ZCCacheHeight.m"; sourceTree = "<group>"; };
+		D589009C1D166F4C00F58405 /* UITableViewCell+ZCAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+ZCAutoCellHeight.h"; sourceTree = "<group>"; };
+		D589009D1D166F4C00F58405 /* UITableViewCell+ZCAutoCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ZCAutoCellHeight.m"; sourceTree = "<group>"; };
+		D58900A51D166F8400F58405 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D58900A61D166F8400F58405 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D58900321D166F1E00F58405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D589004B1D166F1E00F58405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58900561D166F1E00F58405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D589002C1D166F1E00F58405 = {
+			isa = PBXGroup;
+			children = (
+				D58900371D166F1E00F58405 /* ZCAutoCellHeightExtetion */,
+				D58900511D166F1E00F58405 /* ZCAutoCellHeightExtetionTests */,
+				D589005C1D166F1E00F58405 /* ZCAutoCellHeightExtetionUITests */,
+				D58900361D166F1E00F58405 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D58900361D166F1E00F58405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D58900351D166F1E00F58405 /* ZCAutoCellHeightExtetion.app */,
+				D589004E1D166F1E00F58405 /* ZCAutoCellHeightExtetionTests.xctest */,
+				D58900591D166F1E00F58405 /* ZCAutoCellHeightExtetionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D58900371D166F1E00F58405 /* ZCAutoCellHeightExtetion */ = {
+			isa = PBXGroup;
+			children = (
+				D58900951D166F4C00F58405 /* ZCAutoCellHeight */,
+				D589003B1D166F1E00F58405 /* AppDelegate.h */,
+				D589003C1D166F1E00F58405 /* AppDelegate.m */,
+				D58900A51D166F8400F58405 /* ViewController.h */,
+				D58900A61D166F8400F58405 /* ViewController.m */,
+				D54AB5A21D4DBDDB00259C05 /* ZCModel.h */,
+				D54AB5A31D4DBDDB00259C05 /* ZCModel.m */,
+				D54AB5A41D4DBDDB00259C05 /* ZCTableViewCell.h */,
+				D54AB5A51D4DBDDB00259C05 /* ZCTableViewCell.m */,
+				D58900411D166F1E00F58405 /* Main.storyboard */,
+				D58900441D166F1E00F58405 /* Assets.xcassets */,
+				D58900461D166F1E00F58405 /* LaunchScreen.storyboard */,
+				D58900491D166F1E00F58405 /* Info.plist */,
+				D58900381D166F1E00F58405 /* Supporting Files */,
+			);
+			path = ZCAutoCellHeightExtetion;
+			sourceTree = "<group>";
+		};
+		D58900381D166F1E00F58405 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D58900391D166F1E00F58405 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D58900511D166F1E00F58405 /* ZCAutoCellHeightExtetionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D58900521D166F1E00F58405 /* ZCAutoCellHeightExtetionTests.m */,
+				D58900541D166F1E00F58405 /* Info.plist */,
+			);
+			path = ZCAutoCellHeightExtetionTests;
+			sourceTree = "<group>";
+		};
+		D589005C1D166F1E00F58405 /* ZCAutoCellHeightExtetionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D589005D1D166F1E00F58405 /* ZCAutoCellHeightExtetionUITests.m */,
+				D589005F1D166F1E00F58405 /* Info.plist */,
+			);
+			path = ZCAutoCellHeightExtetionUITests;
+			sourceTree = "<group>";
+		};
+		D58900951D166F4C00F58405 /* ZCAutoCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				D58900961D166F4C00F58405 /* UICollectionView+ZCCacheHeight.h */,
+				D58900971D166F4C00F58405 /* UICollectionView+ZCCacheHeight.m */,
+				D58900981D166F4C00F58405 /* UICollectionViewCell+ZCAutoCellHeight.h */,
+				D58900991D166F4C00F58405 /* UICollectionViewCell+ZCAutoCellHeight.m */,
+				D589009A1D166F4C00F58405 /* UITableView+ZCCacheHeight.h */,
+				D589009B1D166F4C00F58405 /* UITableView+ZCCacheHeight.m */,
+				D589009C1D166F4C00F58405 /* UITableViewCell+ZCAutoCellHeight.h */,
+				D589009D1D166F4C00F58405 /* UITableViewCell+ZCAutoCellHeight.m */,
+			);
+			path = ZCAutoCellHeight;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D58900341D166F1E00F58405 /* ZCAutoCellHeightExtetion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58900621D166F1E00F58405 /* Build configuration list for PBXNativeTarget "ZCAutoCellHeightExtetion" */;
+			buildPhases = (
+				D58900311D166F1E00F58405 /* Sources */,
+				D58900321D166F1E00F58405 /* Frameworks */,
+				D58900331D166F1E00F58405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZCAutoCellHeightExtetion;
+			productName = ZCAutoCellHeightExtetion;
+			productReference = D58900351D166F1E00F58405 /* ZCAutoCellHeightExtetion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D589004D1D166F1E00F58405 /* ZCAutoCellHeightExtetionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58900651D166F1E00F58405 /* Build configuration list for PBXNativeTarget "ZCAutoCellHeightExtetionTests" */;
+			buildPhases = (
+				D589004A1D166F1E00F58405 /* Sources */,
+				D589004B1D166F1E00F58405 /* Frameworks */,
+				D589004C1D166F1E00F58405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D58900501D166F1E00F58405 /* PBXTargetDependency */,
+			);
+			name = ZCAutoCellHeightExtetionTests;
+			productName = ZCAutoCellHeightExtetionTests;
+			productReference = D589004E1D166F1E00F58405 /* ZCAutoCellHeightExtetionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D58900581D166F1E00F58405 /* ZCAutoCellHeightExtetionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58900681D166F1E00F58405 /* Build configuration list for PBXNativeTarget "ZCAutoCellHeightExtetionUITests" */;
+			buildPhases = (
+				D58900551D166F1E00F58405 /* Sources */,
+				D58900561D166F1E00F58405 /* Frameworks */,
+				D58900571D166F1E00F58405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D589005B1D166F1E00F58405 /* PBXTargetDependency */,
+			);
+			name = ZCAutoCellHeightExtetionUITests;
+			productName = ZCAutoCellHeightExtetionUITests;
+			productReference = D58900591D166F1E00F58405 /* ZCAutoCellHeightExtetionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D589002D1D166F1E00F58405 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MrZhao;
+				TargetAttributes = {
+					D58900341D166F1E00F58405 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D589004D1D166F1E00F58405 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D58900341D166F1E00F58405;
+					};
+					D58900581D166F1E00F58405 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D58900341D166F1E00F58405;
+					};
+				};
+			};
+			buildConfigurationList = D58900301D166F1E00F58405 /* Build configuration list for PBXProject "ZCAutoCellHeightExtetion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D589002C1D166F1E00F58405;
+			productRefGroup = D58900361D166F1E00F58405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D58900341D166F1E00F58405 /* ZCAutoCellHeightExtetion */,
+				D589004D1D166F1E00F58405 /* ZCAutoCellHeightExtetionTests */,
+				D58900581D166F1E00F58405 /* ZCAutoCellHeightExtetionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D58900331D166F1E00F58405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58900481D166F1E00F58405 /* LaunchScreen.storyboard in Resources */,
+				D58900451D166F1E00F58405 /* Assets.xcassets in Resources */,
+				D58900431D166F1E00F58405 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D589004C1D166F1E00F58405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58900571D166F1E00F58405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D58900311D166F1E00F58405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58900A01D166F4C00F58405 /* UITableView+ZCCacheHeight.m in Sources */,
+				D589003D1D166F1E00F58405 /* AppDelegate.m in Sources */,
+				D54AB5A61D4DBDDB00259C05 /* ZCModel.m in Sources */,
+				D589003A1D166F1E00F58405 /* main.m in Sources */,
+				D54AB5A71D4DBDDB00259C05 /* ZCTableViewCell.m in Sources */,
+				D58900A11D166F4C00F58405 /* UITableViewCell+ZCAutoCellHeight.m in Sources */,
+				D589009F1D166F4C00F58405 /* UICollectionViewCell+ZCAutoCellHeight.m in Sources */,
+				D589009E1D166F4C00F58405 /* UICollectionView+ZCCacheHeight.m in Sources */,
+				D58900A71D166F8400F58405 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D589004A1D166F1E00F58405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58900531D166F1E00F58405 /* ZCAutoCellHeightExtetionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58900551D166F1E00F58405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D589005E1D166F1E00F58405 /* ZCAutoCellHeightExtetionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D58900501D166F1E00F58405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D58900341D166F1E00F58405 /* ZCAutoCellHeightExtetion */;
+			targetProxy = D589004F1D166F1E00F58405 /* PBXContainerItemProxy */;
+		};
+		D589005B1D166F1E00F58405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D58900341D166F1E00F58405 /* ZCAutoCellHeightExtetion */;
+			targetProxy = D589005A1D166F1E00F58405 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D58900411D166F1E00F58405 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58900421D166F1E00F58405 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D58900461D166F1E00F58405 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58900471D166F1E00F58405 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D58900601D166F1E00F58405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D58900611D166F1E00F58405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D58900631D166F1E00F58405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZCAutoCellHeightExtetion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MrZhao.ZCAutoCellHeightExtetion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D58900641D166F1E00F58405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZCAutoCellHeightExtetion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MrZhao.ZCAutoCellHeightExtetion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D58900661D166F1E00F58405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZCAutoCellHeightExtetionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MrZhao.ZCAutoCellHeightExtetionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCAutoCellHeightExtetion.app/ZCAutoCellHeightExtetion";
+			};
+			name = Debug;
+		};
+		D58900671D166F1E00F58405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZCAutoCellHeightExtetionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MrZhao.ZCAutoCellHeightExtetionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCAutoCellHeightExtetion.app/ZCAutoCellHeightExtetion";
+			};
+			name = Release;
+		};
+		D58900691D166F1E00F58405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZCAutoCellHeightExtetionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MrZhao.ZCAutoCellHeightExtetionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZCAutoCellHeightExtetion;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D589006A1D166F1E00F58405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZCAutoCellHeightExtetionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MrZhao.ZCAutoCellHeightExtetionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZCAutoCellHeightExtetion;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D58900301D166F1E00F58405 /* Build configuration list for PBXProject "ZCAutoCellHeightExtetion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58900601D166F1E00F58405 /* Debug */,
+				D58900611D166F1E00F58405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58900621D166F1E00F58405 /* Build configuration list for PBXNativeTarget "ZCAutoCellHeightExtetion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58900631D166F1E00F58405 /* Debug */,
+				D58900641D166F1E00F58405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58900651D166F1E00F58405 /* Build configuration list for PBXNativeTarget "ZCAutoCellHeightExtetionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58900661D166F1E00F58405 /* Debug */,
+				D58900671D166F1E00F58405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58900681D166F1E00F58405 /* Build configuration list for PBXNativeTarget "ZCAutoCellHeightExtetionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58900691D166F1E00F58405 /* Debug */,
+				D589006A1D166F1E00F58405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D589002D1D166F1E00F58405 /* Project object */;
+}
